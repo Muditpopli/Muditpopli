@@ -26,13 +26,13 @@ A live, client-facing service running end-to-end with no manual step in the loop
 * Passed through schema-constrained prompts ensuring every generated section returns validated JSON.
 * Handled automated PDF rendering, email delivery, and custom domain/DNS deployment.
 
-#### 2. Datashots - NIFTY BTST Options Signal Engine (Production ML)
+#### 2. [Datashots - NIFTY BTST Options Signal Engine (Production ML)](https://github.com/Muditpopli/Datashots-NIFTY-Options-Signal-Engine)
 Engineered 51 features from 5.6 GB of raw minute-level chain data (41,000+ files).
 * Trained dual XGBoost classifiers gated on ensemble agreement with strict zero-leakage design.
 * Achieved **54.9% directional accuracy** against a 50% baseline over 566 genuinely out-of-sample days.
 * Shipped with expiry-rollover handling, audit logging, and a daily orchestrator.
 
-#### 3. Expiry Pyramid - Directional Futures Model
+#### 3. [Expiry Pyramid - Directional Futures Model](https://github.com/Muditpopli/Expiry-Pyramid-NIFTY-Futures-Model)
 A logistic regression model predicting next-morning directional calls on NIFTY futures.
 * Utilized three-tier snapshot differencing across the expiry curve reduced to 34 delta-features.
 * Achieved **53.5% OOS accuracy** across 592 trades over 2.5 years (~19% annualized return).
