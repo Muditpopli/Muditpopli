@@ -13,12 +13,14 @@ Currently: Quantitative researcher and proprietary trader (Savvi Capital).
 
 ## Featured projects
 
+[![VolSage: plain-language answer on Greeks and the IV smile](https://raw.githubusercontent.com/Muditpopli/VolSage/main/assets/02-chat-greeks-iv.png)](https://github.com/Muditpopli/VolSage)
+
 | Project | What it is |
 |---|---|
+| [VolSage](https://github.com/Muditpopli/VolSage) *(closed-source prototype)* | RAG assistant over live NSE/BSE options data (IV smile, OI, Greeks). Demo available on request. |
 | [Datashots-NIFTY-Options-Signal-Engine](https://github.com/Muditpopli/Datashots-NIFTY-Options-Signal-Engine) | BTST signal engine for NIFTY/BANKNIFTY — 51 features, XGBoost, 10-fold expanding walk-forward validation. 54.9% directional accuracy over 566 out-of-sample days (50% baseline). |
 | [Expiry-Pyramid-NIFTY-Futures-Model](https://github.com/Muditpopli/Expiry-Pyramid-NIFTY-Futures-Model) | NIFTY futures model — 34 delta features, logistic regression, walk-forward validated. 53.5% out-of-sample accuracy over 592 trades. |
 | [angelone-auto-stoploss-bot](https://github.com/Muditpopli/angelone-auto-stoploss-bot) | Automated stop-loss guard on Angel One SmartAPI — STOPLOSS_LIMIT with price buffer, NSE/NFO/BSE/BFO/MCX, paper and live modes. |
-| VolSage *(closed-source prototype)* | RAG assistant over live NSE/BSE options data (IV smile, OI, Greeks). Demo available on request. |
 
 ## Stack
 
